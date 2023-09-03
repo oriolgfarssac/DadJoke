@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(170, 210, 245);
+}
+
+.mainDiv{
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100dvh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.titol{
+    font-size: 150px;
+}
+
+.intro{
+    width: 950px;
+    font-size: 40px;
+}
+
+.divButton{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.button{
+    background-color: rgb(213, 235, 255);
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    margin-inline: 20px;
+    margin-top: 50px;
+    font-size: 35px;
+    width: 250px;
+    height: 100px;
+}
+
+.button:active{
+    background-color: rgb(148, 203, 255);
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    margin-inline: 20px;
+    margin-top: 50px;
+    font-size: 35px;
+    width: 250px;
+    height: 100px;
+}
+
+.jokeText{
+    width: 950px;
+    font-size: 45px;
+    font-weight: bold;
+}
